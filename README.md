@@ -50,3 +50,30 @@ https://cursos.alura.com.br/course/ia-para-dev-chatgpt-gemini
 * Responder perguntas: Tirar dúvidas com base exclusiva nos seus documentos. 
 * Gerar novas ideias: Criar roteiros de estudo, glossários ou fazer um brainstorming sobre seus próprios projetos.
 * https://notebooklm.google.com/
+
+
+# 02. Da demanda a Protótipo:
+## 01 - Explorando a Lusa do ChatGPT:
+* Criação de tela de feedback pós compra de acordo com documentação de demanda.
+* Evitar utilizar o mesmo contexto de conversa que foi utilizado para outro cenário.
+* Na parte inferior direita do ChatGPT, existe um botção de revisão de código, onde podemos portar linguagem, corrigir bugs, adicionar registros ou comentários.
+
+## 02 - Explorando o Canva do Gemini:
+* Prompt:
+  * ```
+    Crie uma tela usando HTML, CSS e Javascript.
+    Essa tela deve conter:
+    - Um titulo "Avalie sua compra"
+    - Um campo para digitar um comentário.
+    - Um botão para enviar.
+    - Um slider interativo com 3 pontos: Se o slider ficar no ponto inicial, o fundo da tela deve ser verde, se ficar no meio, amarelo, no ultimo vermelho. Cada vez que o usuário mover o slider a tela deve mudar de cor com uma animação suave.
+    - Aoós o envio do comentário, ele deve ser exibido em tela junto de uma mensagem de agradecimento pelo Feedback.
+    ```
+* Código:
+  * [exemplo-02-02-gemini.html](exemplo-02-02-gemini.html)
+* Também existem opções no canto inferior direito, porém um pouco diferentes, como opções de selecionar e perguntar e adicionar recursos do gemini dentro do código (aqui no exemplo do HTML, foi adicionado um botão de melhorar texto e quando o comentário é enviado, a gente memde o nível de satisfação para o Gemini melhorar o texto do comentário).
+* Existe um prompt que é passado pro Gemini para ele entender o contexto do que está sendo feito:
+  * ```
+    const systemPrompt = "Você é um assistente de escrita. Sua tarefa é reescrever o feedback de um cliente para torná-lo mais claro, educado e gramaticalmente correto, mantendo o sentimento original. Responda APENAS com o texto melhorado em português.";
+    ```
+* Também temos opções de retornar versões de histórico.
