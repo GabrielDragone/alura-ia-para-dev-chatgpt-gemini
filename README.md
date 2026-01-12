@@ -77,3 +77,24 @@ https://cursos.alura.com.br/course/ia-para-dev-chatgpt-gemini
     const systemPrompt = "Você é um assistente de escrita. Sua tarefa é reescrever o feedback de um cliente para torná-lo mais claro, educado e gramaticalmente correto, mantendo o sentimento original. Responda APENAS com o texto melhorado em português.";
     ```
 * Também temos opções de retornar versões de histórico.
+
+## 03 - Refatorando código e histórico:
+* Dentro do Gemini, quando reaalizamos a verificaçãao do Código, podemos selecionar o trecho que queremos refatorar e pedir pro Gemini alterar o mesmo através de um novo prompt. Modifica o código diretamente. Experiencia mais fluida.
+* No ChatGPT temos algo similar, onde podemos selecionar o trecho e pedir para melhorar o código. Deixa a visualização como um DIff, parecido com Pull Request. Melhor versionamento.
+
+## 04 - Criando uma tela de feedback:
+* Pergunta: A Hermex Log, empresa de logística especializada em entregas, decidiu criar uma tela de feedback para que os clientes avaliem o serviço. A tela deve permitir escolher entre "boa", "regular" ou "ruim", mudar a cor de fundo conforme a escolha e exibir uma mensagem de agradecimento após o envio.
+  Durante o desenvolvimento, a equipe percebeu que usava o mesmo chat de IA para assuntos distintos, como prazos de entrega e a tela de feedback, o que gerava respostas confusas. O que a equipe deve fazer para garantir que a IA compreenda apenas a demanda atual e não misture contextos anteriores?
+* Resposta: Abrir sempre um novo chat ao iniciar uma demanda, garantindo que apenas o contexto atual seja considerado pela IA. Correta, pois ao limpar o histórico e começar um chat dedicado, evita-se mistura de contextos e aumenta a precisão das respostas.
+
+## 05 - Melhorando a coleta de feedback n Meteora:
+* Perguntaa: A Meteora, uma loja online de roupas e acessórios, está desenvolvendo um código de lógica para calcular descontos em compras. Durante os testes, um membro da equipe selecionou todo o código e pediu ao Gemini para “reescrever tudo de forma mais simples”. O resultado foi uma versão que perdeu parte das regras de negócio, como a aplicação correta do desconto progressivo por quantidade de itens. O que esse caso mostra sobre os riscos de usar a função de edição de forma indiscriminada?
+* Resposta: Que, para ajustes pontuais, selecionar todo o código e pedir alterações específicas não faz sentido e pode gerar a perda de regras importantes. Correta, pois o uso indiscriminado da edição amplia o escopo da alteração e compromete trechos que não precisavam ser modificados.
+
+## 06 - Resumo com NotebookLM:
+* Velocidade: Do conceito ao protótipo funcional em tempo recorde.
+* Eficiência: Automatiza código repetitivo, focnado na lógica complexa.
+* Prototipagem Rápida: Permite iteração e testes rápidos de ideias.
+* Acessibilidade: Reduz a barreira para implementar novos recursos.
+* Precisão: Refatoração assistida por IA minimiza o risto de novos bugs.
+* Nova forma de construir software, com colaboração entre humanos e IAs.
