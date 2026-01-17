@@ -98,3 +98,16 @@ https://cursos.alura.com.br/course/ia-para-dev-chatgpt-gemini
 * Acessibilidade: Reduz a barreira para implementar novos recursos.
 * Precisão: Refatoração assistida por IA minimiza o risto de novos bugs.
 * Nova forma de construir software, com colaboração entre humanos e IAs.
+
+# 03. Executando código:
+## 01 - Executaando outras linguagens:
+* Também connseguimos executar outras linguagens, como Python, Javascript. Mas nem todas vão ter o compilador disponível, como Java, C#, etc.
+* Exemplo prompt: Crie um código python que quando recebe um texto troque uma lista de palavras que pode estaar presente nesse texto por uma lista de asteriscos.
+
+## 02 - Filtro de conteúdo:
+* Utilizando Google Colab, vamos inserir uma arquivo txt com uma lista de palavras que queremos filtrar. Esse que é uma forma rápida de ter acesso à um ambiente python que poderia servir como backend.
+* O google colab já tem integração com Python e algumas recurss operacionais para testarmos esses códigos.
+* Prompt: A partir de agora esse código vai rodar em um ambiente d Google Colab. Faça com que a lista de palavras venha de um arquivo txt chamado palavras_proibidas.txt
+* No Gemini conseguimos exmportar o arquivo diretamente pro Colab.
+* Lá podemos criar o arquivo txt com as palavras que queremos filtrar.
+* Depois rodamos o código e testamos.
