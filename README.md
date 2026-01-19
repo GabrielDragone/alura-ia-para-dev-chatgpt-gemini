@@ -111,3 +111,13 @@ https://cursos.alura.com.br/course/ia-para-dev-chatgpt-gemini
 * No Gemini conseguimos exmportar o arquivo diretamente pro Colab.
 * Lá podemos criar o arquivo txt com as palavras que queremos filtrar.
 * Depois rodamos o código e testamos.
+
+## 03 - Personalização de serviços:
+* Ambientes de prototipação com IA, como a Lousa do ChatGPT, são úteis para validar ideias iniciais, mas não substituem um ambiente real quando há dependência de APIs externas ou arquivos. É preciso migrar para um ambiente de desenvolvimento completo para lidar com integrações externas.
+
+## 04 - Para saber mais: Google Colaboratory:
+* É uma ferramenta muito utilizada no mundo de IA, Machine Learning e Data Science. Ela permite executar tarefas extremamente complexas (e que poderiam levar muito tempo de configuração em computadores comuns) em máquinas pré-configuradas através de acesso remoto temporário, proporcionando maior velocidade ao desenvolvimento de nossas aplicações e estudos sobre a área.
+* https://www.alura.com.br/artigos/google-colab-o-que-e-e-como-usar
+
+## 05 - Resumo com NotebookLM:
+* Isso nos leva a uma reflexão final. A IA escreve o código, mas quem faz ele funcionar? À medida que as IAs se tornam melhores em escrever código, nosso papel muda. Passa a ser menos sobre digitar e muito mais sobre ser arquiteto, sobre testar, sobre integrar as peças. A IA pode até ser a copiloto, mas quem continua no comando do avião, garantindo que a viagem do prompt chegue segura ao seu destino, que é a produção, ainda é a pessoa desenvolvedora.
