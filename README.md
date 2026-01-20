@@ -118,6 +118,7 @@ https://cursos.alura.com.br/course/ia-para-dev-chatgpt-gemini
 ## 04 - Para saber mais: Google Colaboratory:
 * É uma ferramenta muito utilizada no mundo de IA, Machine Learning e Data Science. Ela permite executar tarefas extremamente complexas (e que poderiam levar muito tempo de configuração em computadores comuns) em máquinas pré-configuradas através de acesso remoto temporário, proporcionando maior velocidade ao desenvolvimento de nossas aplicações e estudos sobre a área.
 * https://www.alura.com.br/artigos/google-colab-o-que-e-e-como-usar
+* Conseguimos importar arquivos, buscar através de APIs ou buscar diretamente no driver.
 
 ## 05 - Resumo com NotebookLM:
 * Isso nos leva a uma reflexão final. A IA escreve o código, mas quem faz ele funcionar? À medida que as IAs se tornam melhores em escrever código, nosso papel muda. Passa a ser menos sobre digitar e muito mais sobre ser arquiteto, sobre testar, sobre integrar as peças. A IA pode até ser a copiloto, mas quem continua no comando do avião, garantindo que a viagem do prompt chegue segura ao seu destino, que é a produção, ainda é a pessoa desenvolvedora.
