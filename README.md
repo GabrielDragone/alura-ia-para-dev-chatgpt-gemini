@@ -100,7 +100,7 @@ https://cursos.alura.com.br/course/ia-para-dev-chatgpt-gemini
 * Nova forma de construir software, com colaboração entre humanos e IAs.
 
 # 03. Executando código:
-## 01 - Executaando outras linguagens:
+## 01 - Executando outras linguagens:
 * Também connseguimos executar outras linguagens, como Python, Javascript. Mas nem todas vão ter o compilador disponível, como Java, C#, etc.
 * Exemplo prompt: Crie um código python que quando recebe um texto troque uma lista de palavras que pode estaar presente nesse texto por uma lista de asteriscos.
 
@@ -122,3 +122,24 @@ https://cursos.alura.com.br/course/ia-para-dev-chatgpt-gemini
 
 ## 05 - Resumo com NotebookLM:
 * Isso nos leva a uma reflexão final. A IA escreve o código, mas quem faz ele funcionar? À medida que as IAs se tornam melhores em escrever código, nosso papel muda. Passa a ser menos sobre digitar e muito mais sobre ser arquiteto, sobre testar, sobre integrar as peças. A IA pode até ser a copiloto, mas quem continua no comando do avião, garantindo que a viagem do prompt chegue segura ao seu destino, que é a produção, ainda é a pessoa desenvolvedora.
+
+# 04. Conhecendo Claude e Grok:
+## 01 - Conhecendo Claude e Grok:
+* Grok é um dos modelos mais utilizados para programação. https://grok.com/
+  * Não temos a opção de selecionar o código e pedir alteração, conforme demais ferramentas.
+* Já o Claude usa modelos como Sonnet e Opus, que também são muito bons para programação. https://claude.ai/
+  * No Claude não precisamos selecionar a lousa, ele já entende de acordo com o pedido.
+  * Também temos as opções de selecionar o código pra melhorar ou explicar.
+  * Confore vamos pedindo alterações, podemosm verificar as versões do código no canto superior esquerdo e voltar para as versões.
+## 02 - Migrando código entre linguagens:
+* Conseguimos pegar os códigos gerados em uma IA e passar para outra IA para realizar alterações.
+* Também conseguimos solicitar alterações de linguagens, migrando de uma linguagem para outra.
+## 03 - Adaptação de código para diferentes linguagens:
+* Cada ferramenta tem suas particularidades, mas funcionam de forma semelhante, e aprender seus fluxos ajuda a usar tanto as atuais quanto futuras IAs. Compreender esses padrões de interação torna a equipe mais flexível e capaz de aproveitar os pontos fortes de cada IA.
+## 05 - Resumo com NotebookLM:
+* Principais conclusões:
+  * Diversifique suas ferramentas de IA.
+  * Use prévias ao vivo para prototipagem rápida.
+  * Edite códigos existentes diretamente na IA.
+  * Converta código entre linguagens.
+  * Escolha a ferraenta certa para cada tarefa.
